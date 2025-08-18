@@ -3936,7 +3936,7 @@ mod tests {
             .unwrap();
 
         alice_group
-            .encrypt_application_message(&vec![1, 2, 3], vec![])
+            .encrypt_application_message(&[1, 2, 3], vec![])
             .await
             .unwrap();
 
